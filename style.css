@@ -70,7 +70,7 @@ ul{
     background-color: var(--accent-color);
     border-radius: 6px;
     font-weight: 700;
-    color: white!important;
+    color: var(--primary-text-color);
     padding: 12px 24px;
     box-shadow:0 0 2px var(--secondary-text-color) ;
     transition: 0.2s ease-out;
@@ -126,4 +126,27 @@ transition: 0.2s ease-out;
 .nav-links ul{
 justify-content: end;
 gap: 40px;
+}
+
+/* header section */
+header{
+    padding: 50px var(--padding-inline-section) 0;
+}
+.header-section{
+    justify-content:center ;
+    gap: 0px;
+}
+
+.header-left{
+    max-width: 40vw;
+}
+.header-left h1{
+    margin-top: 20px;
+} 
+.gets-started-btn{
+    margin-top: 20px;
+}
+
+.header-right img{
+    width: 600px;
 }
