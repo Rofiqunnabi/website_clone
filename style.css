@@ -191,13 +191,29 @@ header{
    /* margin-top: 20px; */
 }
 
-
 .feature-card {
    flex-direction:column;
    max-width: 30%;
    text-align: center;
    text-align: center;
    gap: 20px;
-   
+
   
+}
+
+/* big-feature-section */
+
+
+.big-feature-section{
+    padding:30px var(--padding-inline-section) 0 ;
+}
+.big-feature-container{
+    gap: 30px;
+}
+.feature-img img{
+    width: 100%;
+}
+.feature-discription{
+    flex-direction: column;
+    align-items: flex-start;
 }
