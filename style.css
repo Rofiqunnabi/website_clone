@@ -98,7 +98,7 @@ transition: 0.2s ease-out;
 
 
 .top-banner{
-  background-image: url(./asset/asset\ 30.png);
+  background-image: url(./asset/asset\ 32.png);
   background-color: #4fb3d4;
   background-size: 300px;
   background-repeat:repeat;
@@ -165,4 +165,38 @@ header{
 }
 .logo{
     height: 46px;
+}
+
+/* features-section */
+
+.feature-header{
+    text-align: center ;
+    margin-bottom: 20px;
+}
+.feature-section{
+    padding: 70px var(--padding-inline-section) 0;
+    background-image: url(asset/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.feature-headeing-text{
+ margin-bottom: 30px;
+
+}
+
+.feature-area{
+   flex-wrap: wrap; 
+   justify-content: space-between;
+   gap: 40px;
+   /* margin-top: 20px; */
+}
+
+
+.feature-card {
+   flex-direction:column;
+   max-width: 30%;
+   text-align: center;
+   text-align: center;
+   gap: 20px;
+  
 }
